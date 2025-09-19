@@ -1,0 +1,48 @@
+/*
+Author: Mercy Korir
+Date: 2025-09-19
+*/
+
+body {
+    background-color: rgb(240, 248, 255); /* light background */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: darkblue;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: darkgreen;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    list-style-type: square;
+    color: darkred;
+}
+
+ol li {
+    list-style-type: decimal;
+    color: purple;
+}
+
+a {
+    color: darkorange;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
