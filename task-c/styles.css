@@ -1,0 +1,42 @@
+/*
+Author: Mercy Korir
+Date: 2025-09-19
+*/
+
+:root{
+  --bg: #f7fafc;
+  --text: #1f2937;
+  --accent: #0b6ea6;
+  --muted: #6b7280;
+  --gap: 20px;
+  --maxw: 900px;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Arial, Helvetica, sans-serif;color:var(--text);background:var(--bg)}
+main{max-width:var(--maxw);margin:24px auto;padding:18px}
+h1{color:var(--accent);font-size:32px;margin:0 0 12px}
+h2{color:#0b556f;font-size:20px;margin:0 0 8px}
+section{margin: var(--gap) 0;padding:12px;background:#fff;border-radius:8px;box-shadow:0 1px 4px rgba(15,23,42,0.06)}
+
+img, video, audio{
+  display:block;
+  margin:12px auto;
+  width:100%;
+  max-width:500px; /* teacher requirement */
+  height:auto;
+  border-radius:6px;
+}
+
+/* spacing for attribution text */
+.attribution{font-size:13px;color:var(--muted);margin-top:6px}
+
+/* lists, links (if you reuse lists) */
+ul, ol{margin-left:1.1rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* small responsive tweak */
+@media (max-width:520px){
+  h1{font-size:26px}
+}
